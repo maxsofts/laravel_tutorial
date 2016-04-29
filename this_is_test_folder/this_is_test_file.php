@@ -6,3 +6,5 @@
  * Time: 11:21
  */
 echo "this_is_test_file";
+
+echo "12345";
