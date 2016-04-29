@@ -8,7 +8,7 @@
 
 - Sử dụng git command
 - nhớ thao tác trong đúng thư mục cần load
--Với xamp : X:/xamp/htdocs
+- Với xamp : X:/xamp/htdocs
 - với wamp : X:/wamp/www
 
 sử dụng lệnh
