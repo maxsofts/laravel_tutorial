@@ -6,3 +6,6 @@
  * Time: 11:21
  */
 echo "this_is_test_file";
+
+
+echo "thanh nc";
