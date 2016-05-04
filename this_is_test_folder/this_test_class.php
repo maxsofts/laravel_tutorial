@@ -22,4 +22,22 @@ class this_is_test{
         $this->name="Picachu";
         $this->version="1.0";
     }
+
+    /**
+     * Get Name
+     *
+     * @return string
+     */
+    public function getName(){
+        return $this->name;
+    }
+
+    /**
+     * Set Name
+     *
+     * @param $value
+     */
+    public function setName($value){
+        $this->name = $value;
+    }
 }
