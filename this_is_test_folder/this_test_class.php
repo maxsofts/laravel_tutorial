@@ -16,5 +16,10 @@ class this_is_test{
     public function __construct()
     {
         $this->name = "Duc Sat Thu";
+        
+    }
+    public function __game(){
+        $this->name="Picachu";
+        $this->version="1.0";
     }
 }
