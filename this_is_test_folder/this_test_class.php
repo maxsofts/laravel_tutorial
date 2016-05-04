@@ -40,4 +40,7 @@ class this_is_test{
     public function setName($value){
         $this->name = $value;
     }
+    public function name(){
+        $this->name="vandinh";
+    }
 }
