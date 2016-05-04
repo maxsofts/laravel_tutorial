@@ -17,4 +17,22 @@ class this_is_test{
     {
         $this->name = "Duc Sat Thu";
     }
+
+    /**
+     * Get Name
+     *
+     * @return string
+     */
+    public function getName(){
+        return $this->name;
+    }
+
+    /**
+     * Set Name
+     *
+     * @param $value
+     */
+    public function setName($value){
+        $this->name = $value;
+    }
 }
