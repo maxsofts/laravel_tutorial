@@ -1,0 +1,7 @@
+<?php
+
+public function contact(){
+    echo "Ðây là trang contact";
+}
+
+?>

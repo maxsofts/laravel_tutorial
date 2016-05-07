@@ -14,9 +14,22 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/categories','CategoriesController@index');
-Route::get('/categories/create','CategoriesController@create');
-Route::post('/categories', 'CategoriesController@store');
+Route::controllers([
+    'auth' => 'Auth\AuthController',
+    'password'=>'Auth\PasswordController'
+]);
+Route::get('/register','Auth\AuthController@create');
+Route::get('/contact','Controller@contact');
+Route::get('/gioithieu','obout@about1');
+Route::get('/aboutme','PageController@abloutme');
+Route::get('/category','CategoriesController@category');
+Route::get('/create','CreateController@create');
+Route::get('/articles','ArticlesController@articles');
+Route::post('/create_post','ArticlesController@store');
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/posts','PostController@view');
+Route::get('/addpost','PostController@newpost');
+Route::post('/newpost','PostController@addpost');

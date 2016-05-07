@@ -1,20 +1,12 @@
 <?php
-
 namespace App;
-use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Model;
 
-class Categories extends Model
+use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
+class categories extends Model
 {
-    protected $fillable = [
+    protected $fillable=[
         'name',
-        'created_at',
-        'slug',
-        'parent',
-        'description',
-    ];
-    public function setCreatedAtAttribute($date){
-        //format l?i $date ğı?c g?i vào t? form
-        $this->attributes['created_at'] = Carbon::createFromFormat('Y-m-d',$date);
-    }
+        'created_at'
+    ];//
 }

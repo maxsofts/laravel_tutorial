@@ -8,8 +8,14 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "5.2.*",
-        "illuminate/html": "^5.0"
+        "maxsofts/maxcms" : "0.1.*"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/maxsofts/maxcms"
+        }
+    ],
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
