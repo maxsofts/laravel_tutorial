@@ -20,8 +20,8 @@
                 <td><?php echo $count;?></td>
                 <td> <a href="#"><?php echo $post->name;?></a> </td>
                 <td><?php echo $post->Excerpt;?></td>
-                <td><a class="edit" href="#">Sửa</a></td>
-                <td><a class="delete" href="#">Xóa</a></td>
+                <td><a class="edit" href="post/<?php echo $post->id;?>/edit">Sửa</a></td>
+                <td><a class="delete" href="post/<?php echo $post->id?>/delete">Xóa</a></td>
             </tr>
             <?php
             }

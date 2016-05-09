@@ -33,3 +33,6 @@ Route::get('/home', 'HomeController@index');
 Route::get('/posts','PostController@view');
 Route::get('/addpost','PostController@newpost');
 Route::post('/newpost','PostController@addpost');
+Route::get('/post/{id}/edit','PostController@editpost');
+Route::get('/post/{id}/delete','PostController@delpost');
+Route::post('/post/update/','PostController@update');
