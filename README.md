@@ -50,14 +50,15 @@ MAIL_USERNAME=null
 MAIL_PASSWORD=null
 MAIL_ENCRYPTION=null
 ````
+- dùng lệnh sau để tạo thư viện
+````
+composer update
+````
+sau khi thành công sẽ có thêm thư mục vendor nẳm trong thư mục laravel chứa code
+
 sau đó dùng lệnh command để build key mới cho app
 ````
 php artisan key:generate
 ````
 
-Sau khi build key xong để laravel hoạt động cần có thư viện packages - dùng lệnh sau để tạo thư viện
-````
-composer update
-````
-sau khi thành công sẽ có thêm thư mục vendor nẳm trong thư mục laravel chứa code
 
